@@ -4,18 +4,73 @@
 <head>
     <meta charset="utf-8">
     <title>Canvas Application</title>
-
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<link rel="stylesheet" type="text/css" href="test.css">-->
 </head>
 
 <body>
-    <div id="mydiv">
-        <!-- <p id="par">Hello</p>-->
+    <div class="ShownDiv" id="ShownDiv" style="display: none;">
+        <div class="header" id="header">Hello</div>
+        <div class="canvasdiv">
+
+            <div class="area1">
+                <canvas id="canvas" height="300" width="300"></canvas>
+                <div class="colorchooser">
+                    <div class="choosecolor" style="background:rgb(255, 0, 0);" id="red" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(255, 64, 0);" id="red1" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(255, 128, 0);" id="orange1" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(255, 192, 0);" id="orange2" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(255, 255, 0);" id="orange3" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(0, 255, 0);" id="green1" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(64, 255, 0)" id="green2" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(128, 255, 0)" id="green3" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(192, 255, 0)" id="green4" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(0, 0, 255);" id="blue1" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(0, 64, 255);" id="blue2" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(0, 128,255)" id="blue3" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(0, 192, 255)" id="blue4" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(0, 255, 255)" id="blue5" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(128, 0, 255);" id="pink1" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background:rgb(192, 64, 255);" id="pink2" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(255, 0,255)" id="pink3" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(192, 192, 192)" id="pink4" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(128, 128,128)" id="pink5" onclick="color(this)"></div>
+                    <div class="choosecolor" style="background: rgb(0, 0,0)" id="black" onclick="color(this)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="area2"> Peers</div>
+           
+        
+        
+    </div>
+    <!-- <div id="mydiv">
+         
     </div>
 
-    <div id="can">
-
+    <div id="container">
+        <div id="can"></div>
+        <div id="list">
+            <ul id="messages"></ul>
+        </div>
     </div>
+-->
+<!-- 
+    <div id="mycontainer">
+        <div id="mydiv">
+           
+        </div>
+
+        <div id="container">
+            <div id="can">
+                  <canvas id="myCanvas" height="300" ; width="350" ; style="border: solid 1px rgb(112, 110, 110);">
+
+                 </canvas>
+                 
+            </div>
+           
+        </div>
+    </div>-->
 
     <div id="hide">
         <form id="myform" method="POST">

@@ -9,12 +9,13 @@
             "request": "launch",
             "name": "Launch Chrome DevTools",
             "file": "${workspaceFolder}/index.html"
+          // "file": "${workspaceFolder}/test.html"
         },
         {
             "type": "chrome",
             "request": "attach",
             "name": "Attach Chrome DevTools",
-            "url": "ws://t2k.azurewebsites.net/painter.ashx?appid=Exalt/"
+            "url": "http://localhost:8000/"
         }
     ]
 }
